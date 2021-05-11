@@ -12,5 +12,5 @@ __all__ = []
 __author__ = "Wills Hua"
 __version__ = "0.0.1"
 
-from .analyzer import return, shaperatio
+from analyzer import returns, shaperatio
 
