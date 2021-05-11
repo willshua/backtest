@@ -1,8 +1,12 @@
 #!/usr/bin/python
 
-def main():
-    pass
+"""
+Backtest
 
+author wills hua
+version 0.0.1
+created on 2021.05.10
+"""
 
-if __name__ == "__main__":
-    main()
+__all__ = []
+
