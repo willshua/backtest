@@ -1,13 +1,17 @@
-#!/usr/bin/python
+"""
+backtest
+----------------------------
 
-"""backtest
-
-A simple back testing tool
+A simple back testing module
 """
 
-__all__ = ["returns", "sharpe"]
+__all__ = [
+    "returns", 
+    "sharpe", 
+    "drawdown",
+]
 __version__ = "0.0.1"
 __author__ = "Wills Hua"
 
 
-from analyzer import returns, sharpe
+from analyzer import returns, sharpe, drawdown
